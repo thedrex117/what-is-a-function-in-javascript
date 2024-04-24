@@ -1,2 +1,4 @@
-const updated = numbers.filter(element => element > 6);
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+var pattern = {};
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+console.log(typeof typeof 1);
