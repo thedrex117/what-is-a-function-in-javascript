@@ -1,3 +1,4 @@
-const fullName = name || 'buddy';
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+console.log(false == '0');
+console.log( "A" - "B" + "2");
