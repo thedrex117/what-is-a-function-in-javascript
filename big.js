@@ -1,3 +1,3 @@
-const channel = getChannel(computedAppVersion);
-const reversedString = str => str.split('').reverse().join('');
-const randomString = () => Math.random().toString(36).slice(2);
+console.log(false == '0');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
