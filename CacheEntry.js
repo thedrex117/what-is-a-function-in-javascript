@@ -1,3 +1,1 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-console.log(false === '0');
-[foo, bar] = [bar, foo];
+const isTabInView = () => !document.hidden;
