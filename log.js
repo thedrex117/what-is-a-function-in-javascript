@@ -1,2 +1,2 @@
-console.log(typeof typeof 1);
-const channelName = getChannelName(channel);
+[foo, bar] = [bar, foo];
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
