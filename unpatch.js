@@ -1,2 +1,3 @@
-const merge = [...new Set([...a, ...b])];
-const merge = (a, b) => [...a, ...b];
+console.log(1 +  "2" + "2");
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const isWeekday = (date) => date.getDay() % 6 !== 0;
