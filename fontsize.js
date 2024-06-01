@@ -1,2 +1,1 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const isArray = (arr) => Array.isArray(arr);
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
