@@ -1,2 +1,3 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log(typeof typeof 1);
+var pattern = {};
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
