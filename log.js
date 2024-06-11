@@ -1,2 +1,2 @@
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const updated = numbers.filter(element => element > 6);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
