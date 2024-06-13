@@ -1,1 +1,2 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
