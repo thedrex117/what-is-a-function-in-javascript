@@ -1,3 +1,3 @@
 var arr3 = "jones".split('');
-const value = ( 5 < 7 ) ? "True" : "False" ;
-console.log("1 || 2 = "+(1 || 2));
+console.log( "A" - "B" + "2");
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
