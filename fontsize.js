@@ -1,3 +1,1 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const repositoryRootPath = path.resolve(__dirname, '..');
-const removeDuplicates = (arr) => [...new Set(arr)];
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
