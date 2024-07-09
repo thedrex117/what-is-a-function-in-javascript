@@ -1,3 +1,3 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const merge = [...new Set(a.concat(b))];
-const stringReverse = str => str.split("").reverse().join("");
+const minNumber = arr => Math.min(...arr);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
