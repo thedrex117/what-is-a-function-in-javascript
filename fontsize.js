@@ -1,1 +1,2 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
