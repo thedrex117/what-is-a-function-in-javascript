@@ -1,2 +1,2 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
