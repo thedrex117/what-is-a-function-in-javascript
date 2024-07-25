@@ -1,2 +1,2 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const isArray = (arr) => Array.isArray(arr);
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
