@@ -1,2 +1,2 @@
-console.log( "A" - "B" + "2");
-const repositoryRootPath = path.resolve(__dirname, '..');
+const uniqueArray = arr => [...new Set(arr)];
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
