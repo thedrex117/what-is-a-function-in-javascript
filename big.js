@@ -1,2 +1,3 @@
-var arr3 = "jones".split('');
-const randomBoolean = () => Math.random() >= 0.5;
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+[foo, bar] = [bar, foo];
+const randomString = () => Math.random().toString(36).slice(2);
