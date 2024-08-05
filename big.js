@@ -1,3 +1,3 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-[foo, bar] = [bar, foo];
-const randomString = () => Math.random().toString(36).slice(2);
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const stringReverse = str => str.split("").reverse().join("");
