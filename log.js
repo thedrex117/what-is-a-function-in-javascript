@@ -1,3 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const maxNumber = arr => Math.max(...arr);
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
