@@ -1,2 +1,2 @@
-const uniqueArray = arr => [...new Set(arr)];
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const merge = [...new Set([...a, ...b])];
